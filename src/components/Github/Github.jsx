@@ -39,7 +39,7 @@ export default function Github() {
           <h3 className="text-2xl text-gray-900  font-bold md:text-4xl mb-4">
             How the GitHub API is used
           </h3>
-          <p className=" text-gray-700 md:text-lg md:mb-4">
+          <p className=" text-gray-700 md:mb-4">
             We use <code className="bg-gray-100 px-1 rounded">useEffect</code>{" "}
             to perform a side effect—fetching data from the GitHub API. It runs
             once on component mount due to the empty dependency array.
