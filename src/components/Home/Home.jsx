@@ -62,14 +62,14 @@ export default function Home() {
 
         <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
           <img
-            className="w-155 p-15 outline-6 outline-black shadow-md rounded-lg ml-2"
+            className="w-155 p-15 bg-white border border-gray-200 rounded-lg shadow-lg ml-2"
             src="/src/assets/Remote2.png"
             alt="image1"
           />
         </div>
       </aside>
 
-      <div className="grid  place-items-center sm:mt-20 sm:mb-20">
+      <div className="grid  place-items-center sm:mt-15 sm:mb-20">
         <h3 className="text-5xl font-bold text-gray-900 sm:text-5xl">
           <p className="text-5xl font-bold text-gray-900 sm:text-5xl">
             Let's dive in!
@@ -88,7 +88,7 @@ export default function Home() {
               Defines a mapping between a URL path and the component to render.
               It accepts a `path` and an `element` prop.
             </p>
-            <button className="px-4 py-2 bg-red-500 text-white rounded hover:bg-blue-600">
+            <button className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">
               Learn More
             </button>
           </div>
@@ -101,7 +101,7 @@ export default function Home() {
               Used for client-side navigation. It behaves like an anchor tag but
               prevents full page reloads and allows for smooth transitions.
             </p>
-            <button className="px-4 py-2 bg-red-500 text-white rounded hover:bg-green-600">
+            <button className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">
               Navigate with Link
             </button>
           </div>
@@ -118,6 +118,23 @@ export default function Home() {
               Go Somewhere
             </button>
           </div>
+        </div>
+      </div>
+      <div className="w-full sm:px-10 text-white text-left mt-10 mb-28">
+        <div className="bg-red-500 bg-opacity-20 border   p-6 rounded-lg ">
+          <h4 className="text-4xl font-bold mb-2">
+            Want to know about Git API fetching?
+          </h4>
+          <p className="mb-4">
+            Explore how RouteX uses useEffect and GitHub's public API to render
+            real-time dev data.
+          </p>
+          <Link
+            to="/github"
+            className="inline-block px-6 py-2 bg-white text-red-500 mt-6 text-right rounded-lg font-medium hover:bg-gray-200 transition"
+          >
+            Know More
+          </Link>
         </div>
       </div>
     </div>

@@ -1,12 +1,42 @@
-# React + Vite
+# React RouteX
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Navigate smoothly through pages with React Router.**
 
-Currently, two official plugins are available:
+RouteX is a simple and interactive single-page application built to help developers understand the fundamentals of routing in React. From basic navigation to programmatic redirection, this app showcases core features of `react-router-dom` with clean UI and practical examples.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📌 **Route Mapping**  
+  Learn how `<Route>` connects URL paths to components using `path` and `element` props.
+
+- 🔗 **Client-side Navigation**  
+  Explore how `<Link>` enables seamless transitions without full-page reloads.
+
+- 🧭 **Github api calling**  
+  Using github api to fetch info from your github profile in your React apps.
+
+- 📱 **Responsive Design**  
+  Crafted with Tailwind CSS for a clean, mobile-friendly interface.
+
+---
+
+## 🛠️ Built With
+
+- React.js
+- React Router DOM
+- Tailwind CSS
+- Preline UI
+
+---
+
+## 🧑‍💻 Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/kreeti1210/React-Routex.git
+cd React-Routex
+npm install
+npm run dev

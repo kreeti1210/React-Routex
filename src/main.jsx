@@ -9,6 +9,7 @@ import Contact from "./components/Contact/Contact.jsx";
 import User from "./components/User/User.jsx";
 import Github from "./components/Github/Github.jsx";
 
+//method1
 // const router = createBrowserRouter([
 //   {
 //     path: "/",

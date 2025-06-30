@@ -6,16 +6,16 @@ export default function Contact() {
     <div className="relative flex items-top justify-center min-h-[700px] bg-white sm:items-center sm:pt-0">
       <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
         <div className="mt-8 overflow-hidden">
-          <div className="grid grid-cols-1 md:grid-cols-2">
-            <div className="p-6 mr-2 bg-gray-100 sm:rounded-lg">
+          <div className="grid  grid-cols-1 md:grid-cols-2">
+            <div className="p-6 mr-1 bg-gray-100 sm:rounded-lg">
               <h1 className="text-3xl sm:text-4xl text-gray-800 font-extrabold tracking-tight">
-                Get in touch:
+                Get in touch
               </h1>
-              <p className="text-normal text-lg sm:text-xl font-medium text-gray-600 mt-2">
+              <p className="text-normal text-lg sm:text-lg font-medium text-gray-600 mt-1">
                 Fill in the form to start a conversation
               </p>
 
-              <div className="flex items-center mt-8 text-gray-600">
+              <div className="flex items-center mt-6 text-gray-600">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -38,8 +38,8 @@ export default function Contact() {
                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
-                <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                  Acme Inc, Street, State, Postal Code
+                <div className="ml-4 text-md tracking-wide font-semibold w-65">
+                  Routex Technologies, Gorakhpur, Uttar Pradesh, India-273001
                 </div>
               </div>
 
@@ -61,7 +61,7 @@ export default function Contact() {
                   />
                 </svg>
                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                  +44 1234567890
+                  +91 9855567890
                 </div>
               </div>
 
@@ -83,7 +83,7 @@ export default function Contact() {
                   />
                 </svg>
                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                  info@acme.org
+                  info@routex.org
                 </div>
               </div>
             </div>

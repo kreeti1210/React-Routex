@@ -6,7 +6,7 @@ export default function About() {
     <div className="py-16 bg-white">
       <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
         <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-          <div className="md:5/12 lg:w-5/12 p-5 outline-1 shadow rounded-lg ">
+          <div className="md:5/12 lg:w-5/12 p-5 bg-white border border-gray-200 rounded-lg shadow-lg ml-10 ">
             <img src="/src/assets/aboutReactDOM.png" alt="image" />
           </div>
           <div className="md:7/12 lg:w-6/12 flex-row justify-end ">
