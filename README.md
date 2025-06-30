@@ -40,3 +40,16 @@ git clone https://github.com/kreeti1210/React-Routex.git
 cd React-Routex
 npm install
 npm run dev
+
+```
+
+---
+
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
