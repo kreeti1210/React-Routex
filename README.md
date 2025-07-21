@@ -27,7 +27,7 @@ RouteX is a simple and interactive single-page application built to help develop
 - React.js
 - React Router DOM
 - Tailwind CSS
-- Preline UI
+
 
 ---
 
