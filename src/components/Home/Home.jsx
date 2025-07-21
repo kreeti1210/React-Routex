@@ -63,7 +63,7 @@ export default function Home() {
         <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
           <img
             className="w-155 p-15 bg-white border border-gray-200 rounded-lg shadow-lg ml-2"
-            src="/src/assets/Remote2.svg"
+            src="/Remote2.jpeg"
             alt="image1"
           />
         </div>

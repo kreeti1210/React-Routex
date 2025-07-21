@@ -9,7 +9,7 @@ export default function Header() {
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center">
             <img
-              src="/src/assets/Remote2.svg"
+              src="/Remote2.jpeg"
               className=" w-24 m-2 h-13"
               alt="Logo"
             />
