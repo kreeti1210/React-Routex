@@ -25,7 +25,7 @@ export default function Home() {
             <div className="flex gap-3 align-right justify-end">
               <Link
                 className="inline-flex text-white items-center px-6 py-3 font-medium bg-red-500 rounded-lg hover:opacity-75"
-                to="/"
+                to="/contact"
               >
                 <svg
                   fill="white"
@@ -88,9 +88,15 @@ export default function Home() {
               Defines a mapping between a URL path and the component to render.
               It accepts a `path` and an `element` prop.
             </p>
-            <button className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">
-              Learn More
-            </button>
+            <a
+              href="https://github.com/kreeti1210/React-Routex/blob/main/src/main.jsx"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">
+                Learn More
+              </button>
+            </a>
           </div>
 
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md p-6">
@@ -101,9 +107,15 @@ export default function Home() {
               Used for client-side navigation. It behaves like an anchor tag but
               prevents full page reloads and allows for smooth transitions.
             </p>
-            <button className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">
-              Navigate with Link
-            </button>
+            <a
+              href="https://github.com/kreeti1210/React-Routex/blob/main/src/components/Footer/Footer.jsx"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">
+                Navigate with Link
+              </button>
+            </a>
           </div>
 
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md p-6">
@@ -114,9 +126,15 @@ export default function Home() {
               A React hook that gives you a function to programmatically
               navigate to a different route in your app.
             </p>
-            <button className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">
-              Go Somewhere
-            </button>
+            <a
+              href="https://github.com/kreeti1210/React-Routex/blob/main/src/components/Home/Home.jsx"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">
+                Go Somewhere
+              </button>
+            </a>
           </div>
         </div>
       </div>

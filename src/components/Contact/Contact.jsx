@@ -3,7 +3,10 @@ import { Link, NavLink } from "react-router-dom";
 
 export default function Contact() {
   return (
+    <div>
+         <h2 className="text-3xl sm:text-3xl text-center p-2 bg-red-500 text-white font-bold ">Coming soon!</h2>
     <div className="relative flex items-top justify-center min-h-[700px] bg-white sm:items-center sm:pt-0">
+   
       <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
         <div className="mt-8 overflow-hidden">
           <div className="grid  grid-cols-1 md:grid-cols-2">
@@ -130,13 +133,14 @@ export default function Contact() {
 
               <button
                 type="submit"
-                className="md:w-32 bg-orange-700 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-orange-600 transition ease-in-out duration-300"
+                className="md:w-32 bg-red-500 cursor-not-allowed disabled hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-orange-600 transition ease-in-out duration-300"
               >
                 Submit
               </button>
             </form>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

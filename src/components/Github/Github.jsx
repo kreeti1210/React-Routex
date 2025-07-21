@@ -48,7 +48,7 @@ export default function Github() {
             <li>
               <strong>Fetch URL:</strong>{" "}
               <code className="bg-gray-100 px-1 rounded">
-                https://api.github.com/users/kreeti1210
+                https://api.github.com/users/username
               </code>
             </li>
             <li>
